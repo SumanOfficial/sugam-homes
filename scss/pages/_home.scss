@@ -1,0 +1,91 @@
+#home {
+  .des {
+    margin-top: 100px;
+    h1 {
+      color: #736357;
+    }
+    h3 {
+      color: #736357;
+    }
+  }
+  .happy-communities {
+    background-image: url("../../assets/images/home/dd.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    .score {
+      background-color: rgba(0, 0, 0, 0.144);
+      padding: 100px 0;
+      img {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+        padding: 20px;
+      }
+    }
+    h2 {
+      font-size: 40px;
+      font-weight: bold;
+    }
+  }
+  .feature-projects {
+    margin-top: 100px;
+    h3 {
+      font-weight: bold;
+      color: #736357;
+    }
+    .card-title {
+      font-weight: bold;
+      color: #736357;
+    }
+  }
+  .current-project {
+    @extend .feature-projects;
+  }
+  .features {
+    margin-top: 100px;
+    h3 {
+      font-weight: bold;
+      color: #736357;
+    }
+
+    .card {
+      text-align: center;
+      height: 400px;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    .card-title {
+      font-weight: bold;
+      color: #736357;
+    }
+  }
+  .updates {
+    margin-top: 100px;
+
+    .heading {
+      display: flex;
+      // align-items: center;
+      justify-content: center;
+      h3 {
+        text-align: center;
+        font-weight: bold;
+        color: #736357;
+      }
+    }
+    .home-update-banner {
+      margin-top: 50px;
+      img {
+        border-radius: 4px;
+      }
+    }
+  }
+}

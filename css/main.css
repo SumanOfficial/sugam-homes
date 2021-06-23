@@ -1,0 +1,193 @@
+*,
+html {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 130px;
+  height: 80px;
+}
+
+.btn-custom {
+  background-color: #736357;
+  color: #f8b417;
+  font-weight: bold;
+}
+
+.line {
+  background-color: #f8b417;
+  width: 100px;
+  height: 3px;
+}
+
+footer {
+  margin-top: 100px;
+  background-image: url("../../assets/images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer form.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  height: 40px;
+}
+
+footer form.subscribe input {
+  width: 100% !important;
+}
+
+footer form.qus {
+  background-color: #736357;
+  color: #fff;
+  padding: 20px;
+}
+
+footer form.qus label {
+  font-weight: bold;
+}
+
+footer form.qus .btn-custom {
+  background-color: #f8b417;
+  color: #736357;
+}
+
+footer .footer-slider img {
+  border-radius: 4px;
+}
+
+footer a {
+  color: #736357;
+}
+
+footer a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#home .des {
+  margin-top: 100px;
+}
+
+#home .des h1 {
+  color: #736357;
+}
+
+#home .des h3 {
+  color: #736357;
+}
+
+#home .happy-communities {
+  background-image: url("../../assets/images/home/dd.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+#home .happy-communities .score {
+  background-color: rgba(0, 0, 0, 0.144);
+  padding: 100px 0;
+}
+
+#home .happy-communities .score img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  padding: 20px;
+}
+
+#home .happy-communities h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#home .feature-projects, #home .current-project {
+  margin-top: 100px;
+}
+
+#home .feature-projects h3, #home .current-project h3 {
+  font-weight: bold;
+  color: #736357;
+}
+
+#home .feature-projects .card-title, #home .current-project .card-title {
+  font-weight: bold;
+  color: #736357;
+}
+
+#home .features {
+  margin-top: 100px;
+}
+
+#home .features h3 {
+  font-weight: bold;
+  color: #736357;
+}
+
+#home .features .card {
+  text-align: center;
+  height: 400px;
+}
+
+#home .features .card img {
+  width: 100px;
+  height: 100px;
+}
+
+#home .features .card-title {
+  font-weight: bold;
+  color: #736357;
+}
+
+#home .updates {
+  margin-top: 100px;
+}
+
+#home .updates .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#home .updates .heading h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #736357;
+}
+
+#home .updates .home-update-banner {
+  margin-top: 50px;
+}
+
+#home .updates .home-update-banner img {
+  border-radius: 4px;
+}
+/*# sourceMappingURL=main.css.map */
