@@ -33,7 +33,7 @@ nav {
 
 footer {
   margin-top: 100px;
-  background-image: url("../../assets/images/footer.png");
+  background-image: url("../assets/images/footer.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
@@ -97,7 +97,7 @@ footer a:hover {
 }
 
 #home .happy-communities {
-  background-image: url("../../assets/images/home/dd.png");
+  background-image: url("../assets/images/home/dd.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
