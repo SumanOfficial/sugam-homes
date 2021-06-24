@@ -1,0 +1,70 @@
+#urban_lakes {
+  .hero {
+    margin-top: 100px;
+  }
+  .overview {
+    margin-top: 100px;
+  }
+  .workthrough {
+    margin-top: 100px;
+    iframe {
+      width: 100%;
+      height: 500px;
+    }
+  }
+  .amenities {
+    margin-top: 100px;
+    .amenities-gallery {
+      img {
+        width: 100%;
+        height: auto;
+      }
+      a {
+        color: #000;
+      }
+    }
+    ul {
+      padding: 20px;
+      li {
+        list-style-type: circle;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+  .location {
+    margin-top: 100px;
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 600px;
+    }
+  }
+  .q-link {
+    margin-top: 100px;
+    text-align: center;
+    img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+    }
+    a {
+      color: #736357;
+      font-weight: bold;
+      padding: 0 20px;
+    }
+  }
+  .nav2 {
+    .navbar-nav {
+      display: flex;
+    }
+  }
+  .contact {
+    margin-top: 100px;
+    a {
+      text-decoration: none;
+      color: #736357;
+      font-weight: bold;
+    }
+  }
+}

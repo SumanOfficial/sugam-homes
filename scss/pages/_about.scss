@@ -1,0 +1,55 @@
+#sugam-about {
+  margin-top: 100px;
+  p {
+    font-size: 18px;
+  }
+  .promise {
+    margin-top: 100px;
+  }
+  .vision {
+    @extend .promise;
+    background-image: url("../assets/images/about/shutterstock_239451406.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    .wrapper {
+      background-color: rgba(0, 0, 0, 0.678);
+      padding: 50px 0;
+      border-radius: 5px;
+      color: #fff;
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+        padding: 20px;
+      }
+    }
+    .title {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .good {
+    @extend .promise;
+  }
+  .awards {
+    @extend .promise;
+    .award {
+      .details {
+        margin-top: 10px;
+        display: flex;
+        align-items: start;
+        img {
+          width: 100%;
+          height: auto;
+          max-width: 50px;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  .swayam {
+    @extend .promise;
+  }
+}
