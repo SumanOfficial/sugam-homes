@@ -35,6 +35,10 @@ nav {
   height: 3px;
 }
 
+.back-blue {
+  background-color: #165266;
+}
+
 footer {
   margin-top: 100px;
   background-image: url("../assets/images/footer.png");
@@ -364,5 +368,24 @@ footer a:hover {
   text-decoration: none;
   color: #736357;
   font-weight: bold;
+}
+
+#urban_lakes .club {
+  margin-top: 100px;
+}
+
+#urban_lakes .club img {
+  width: 100%;
+  height: auto;
+}
+
+#urban_lakes .hero-card .card {
+  border: none;
+}
+
+#urban_lakes .hero-card .card img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
 }
 /*# sourceMappingURL=main.css.map */
