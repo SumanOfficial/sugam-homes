@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,KAAK;CAalB;;AAdD,AAEE,KAFG,CAEH,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,KAAK;CACjB;;AANH,AAQI,KARC,CAOH,SAAS,CACP,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "../scss/pages/growth_partners/growth_partners.scss"
+    ],
+    "names": [],
+    "file": "growth_partners.css"
+}
