@@ -93,15 +93,38 @@ footer a:hover {
 }
 
 #home .des {
-  margin-top: 100px;
+  padding: 150px 0;
 }
 
 #home .des h1 {
-  color: #736357;
+  margin-top: 20px;
 }
 
-#home .des h3 {
-  color: #736357;
+#home .des .main-text {
+  background-color: #fff;
+  padding: 100px;
+}
+
+#home .des .sub-text {
+  background-color: #ffbb00;
+  padding: 100px;
+}
+
+#home .des .sub-text p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#home .des .slick-slide {
+  display: none;
+  float: left;
+  height: auto;
+  min-height: 1px;
+}
+
+#home .des .slick-slide img {
+  max-width: 100vw !important;
+  max-width: 100vh !important;
 }
 
 #home .happy-communities {
@@ -111,7 +134,6 @@ footer a:hover {
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 0;
-  margin-top: 100px;
   text-align: center;
   color: #fff;
 }
@@ -146,6 +168,21 @@ footer a:hover {
 #home .feature-projects .card-title, #home .current-project .card-title {
   font-weight: bold;
   color: #736357;
+}
+
+#home .feature-projects .card, #home .current-project .card {
+  border: none;
+  padding: 10px;
+  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.103);
+          box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.103);
+}
+
+#home .feature-projects .card-title, #home .current-project .card-title {
+  text-align: center;
+}
+
+#home .feature-projects .card-text, #home .current-project .card-text {
+  text-align: center;
 }
 
 #home .features {
