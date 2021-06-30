@@ -2,8 +2,23 @@
   .hero {
     margin-top: 100px;
   }
+  .book-online {
+    background-color: #ffbb00;
+    padding: 50px 0;
+  }
   .overview {
     margin-top: 100px;
+    ul {
+      padding: 15px;
+      li {
+        font-size: 18px;
+        // font-weight: bold;
+        list-style-type: circle;
+      }
+    }
+    p {
+      font-size: 18px;
+    }
   }
   .workthrough {
     margin-top: 100px;

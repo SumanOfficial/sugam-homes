@@ -5,6 +5,13 @@ $("#home-banner").slick({
   cssEase: "linear",
   arrows: false,
 });
+$("#home-update-banner").slick({
+  autoplay: true,
+  infinite: true,
+  speed: 500,
+  cssEase: "linear",
+  arrows: false,
+});
 $(".home-update-banner").slick({
   infinite: true,
   autoplay: true,
