@@ -29,6 +29,10 @@ nav {
   font-weight: bold;
 }
 
+.btn-custom:hover {
+  color: #fff;
+}
+
 .line {
   background-color: #f8b417;
   width: 100px;
@@ -156,26 +160,7 @@ footer a:hover {
 #home .feature-projects h3, #home .current-project h3 {
   font-weight: bold;
   color: #736357;
-}
-
-#home .feature-projects .card-title, #home .current-project .card-title {
-  font-weight: bold;
-  color: #736357;
-}
-
-#home .feature-projects .card, #home .current-project .card {
-  border: none;
-  padding: 10px;
-  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.103);
-          box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.103);
-}
-
-#home .feature-projects .card-title, #home .current-project .card-title {
-  text-align: center;
-}
-
-#home .feature-projects .card-text, #home .current-project .card-text {
-  text-align: center;
+  font-size: 40px;
 }
 
 #home .feature-projects .project, #home .current-project .project {
@@ -197,11 +182,18 @@ footer a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 270px;
+  height: 500px;
+  padding: 20px;
 }
 
 #home .feature-projects .project h4, #home .current-project .project h4 {
   font-weight: bold;
+  font-size: 30px;
+  color: #736357;
+}
+
+#home .feature-projects .project p, #home .current-project .project p {
+  font-size: 18px;
 }
 
 #home .current-project .heading {
@@ -214,17 +206,25 @@ footer a:hover {
 }
 
 #home .features {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 #home .features h3 {
   font-weight: bold;
   color: #736357;
+  font-size: 40px;
+}
+
+#home .features h5 {
+  font-size: 24px;
+}
+
+#home .features p {
+  font-size: 18px;
 }
 
 #home .features .card {
-  text-align: center;
-  height: 400px;
+  border: none;
 }
 
 #home .features .card img {
@@ -232,9 +232,17 @@ footer a:hover {
   height: 100px;
 }
 
+#home .features .card .card-body {
+  height: auto;
+}
+
 #home .features .card-title {
   font-weight: bold;
   color: #736357;
+}
+
+#home .features .feature {
+  margin-top: 100px;
 }
 
 #home .updates {
@@ -254,6 +262,19 @@ footer a:hover {
   text-align: center;
   font-weight: bold;
   color: #736357;
+  font-size: 34px;
+}
+
+#home .updates .updates-images {
+  margin-top: 50px;
+  height: 600px;
+}
+
+#home .updates .updates-images img {
+  width: 100%;
+  height: 600px;
+  padding: 0;
+  margin: 0;
 }
 
 #home .updates .home-update-banner {

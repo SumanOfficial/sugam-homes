@@ -6,6 +6,7 @@ html {
 }
 body {
   font-family: "Dosis", sans-serif;
+  // width: 100vw;
 }
 nav {
   text-transform: uppercase;
@@ -21,6 +22,9 @@ nav {
   background-color: #736357;
   color: #f8b417;
   font-weight: bold;
+  &:hover {
+    color: #fff;
+  }
 }
 .line {
   background-color: #f8b417;
