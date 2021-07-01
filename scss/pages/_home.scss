@@ -1,6 +1,9 @@
 #home {
   .des {
     padding: 150px 0;
+    @media only screen and (max-width: 600px) {
+      padding: 20px 0;
+    }
     h1 {
       // color: #736357;
       margin-top: 20px;
@@ -10,12 +13,18 @@
       // background-color: #ffbb00;
       background-color: #fff;
       padding: 100px;
+      @media only screen and (max-width: 600px) {
+        padding: 20px;
+      }
     }
     .sub-text {
       // margin-top: -200px;
       background-color: #ffbb00;
       // background-color: #fff;
       padding: 100px;
+      @media only screen and (max-width: 600px) {
+        padding: 50px;
+      }
       p {
         margin-top: 20px;
         font-size: 20px;
@@ -62,9 +71,20 @@
       color: #736357;
       font-size: 40px;
     }
-
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+      color: #ffbb00;
+      background-color: #736357;
+    }
+    .nav-pills .nav-link {
+      color: #736357;
+      // background-color: #736357;
+    }
     .project {
       margin-top: 100px;
+      @media only screen and (max-width: 600px) {
+        margin-top: 50px;
+      }
       img {
         width: 100%;
         height: auto;
@@ -75,6 +95,10 @@
         align-items: center;
         height: 500px;
         padding: 20px;
+        @media only screen and (max-width: 600px) {
+          height: auto;
+          text-align: left !important;
+        }
       }
       h4 {
         font-weight: bold;
@@ -83,6 +107,14 @@
       }
       p {
         font-size: 18px;
+      }
+      @media only screen and (max-width: 600px) {
+        .sugam-park-img {
+          margin-top: -700px;
+        }
+        .sugam-park-text {
+          margin-top: 200px;
+        }
       }
     }
   }
@@ -149,6 +181,9 @@
         height: 400px;
         padding: 0;
         margin: 0;
+        @media only screen and (max-width: 600px) {
+          height: auto;
+        }
       }
     }
     .home-update-banner {

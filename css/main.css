@@ -100,6 +100,12 @@ footer a:hover {
   padding: 150px 0;
 }
 
+@media only screen and (max-width: 600px) {
+  #home .des {
+    padding: 20px 0;
+  }
+}
+
 #home .des h1 {
   margin-top: 20px;
 }
@@ -109,9 +115,21 @@ footer a:hover {
   padding: 100px;
 }
 
+@media only screen and (max-width: 600px) {
+  #home .des .main-text {
+    padding: 20px;
+  }
+}
+
 #home .des .sub-text {
   background-color: #ffbb00;
   padding: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  #home .des .sub-text {
+    padding: 50px;
+  }
 }
 
 #home .des .sub-text p {
@@ -163,8 +181,25 @@ footer a:hover {
   font-size: 40px;
 }
 
+#home .feature-projects .nav-pills .nav-link.active, #home .current-project .nav-pills .nav-link.active,
+#home .feature-projects .nav-pills .show > .nav-link,
+#home .current-project .nav-pills .show > .nav-link {
+  color: #ffbb00;
+  background-color: #736357;
+}
+
+#home .feature-projects .nav-pills .nav-link, #home .current-project .nav-pills .nav-link {
+  color: #736357;
+}
+
 #home .feature-projects .project, #home .current-project .project {
   margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  #home .feature-projects .project, #home .current-project .project {
+    margin-top: 50px;
+  }
 }
 
 #home .feature-projects .project img, #home .current-project .project img {
@@ -186,6 +221,13 @@ footer a:hover {
   padding: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  #home .feature-projects .project .project-text, #home .current-project .project .project-text {
+    height: auto;
+    text-align: left !important;
+  }
+}
+
 #home .feature-projects .project h4, #home .current-project .project h4 {
   font-weight: bold;
   font-size: 30px;
@@ -194,6 +236,15 @@ footer a:hover {
 
 #home .feature-projects .project p, #home .current-project .project p {
   font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  #home .feature-projects .project .sugam-park-img, #home .current-project .project .sugam-park-img {
+    margin-top: -700px;
+  }
+  #home .feature-projects .project .sugam-park-text, #home .current-project .project .sugam-park-text {
+    margin-top: 200px;
+  }
 }
 
 #home .current-project .heading {
@@ -274,6 +325,12 @@ footer a:hover {
   height: 400px;
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  #home .updates .updates-images img {
+    height: auto;
+  }
 }
 
 #home .updates .home-update-banner {
