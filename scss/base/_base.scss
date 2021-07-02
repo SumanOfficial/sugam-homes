@@ -4,6 +4,10 @@ html {
   padding: 0%;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../font/IvyMode-Thin.ttf);
+}
 body {
   font-family: "Dosis", sans-serif;
   // width: 100vw;

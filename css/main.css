@@ -6,6 +6,11 @@ html {
           box-sizing: border-box;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../font/IvyMode-Thin.ttf);
+}
+
 body {
   font-family: "Dosis", sans-serif;
 }
@@ -101,7 +106,16 @@ footer a:hover {
 }
 
 #home #banner {
-  padding: 550px 0 150px 0;
+  height: 80vh !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-image: url("../assets/images/home/Night-Aerial-View.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -115,17 +129,21 @@ footer a:hover {
 }
 
 #home #banner h3 {
-  font-size: 50px;
+  font-family: myFirstFont;
+  font-size: 90px;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 600px) {
   #home #banner h3 {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 
 #home .des {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -256,7 +274,7 @@ footer a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 500px;
+  height: 400px;
   padding: 20px;
 }
 

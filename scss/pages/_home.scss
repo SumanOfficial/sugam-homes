@@ -1,14 +1,21 @@
 #home {
   overflow-x: hidden;
   #banner {
-    padding: 550px 0 150px 0;
+    height: 80vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     @media only screen and (max-width: 600px) {
       padding: 200px 0 50px 0;
     }
     h3 {
-      font-size: 50px;
+      font-family: myFirstFont;
+      font-size: 90px;
+      font-weight: normal;
+      font-style: normal;
+      text-transform: uppercase;
       @media only screen and (max-width: 600px) {
-        font-size: 30px;
+        font-size: 50px;
       }
     }
     background-image: url("../assets/images/home/Night-Aerial-View.jpg");
@@ -17,7 +24,7 @@
     background-size: cover;
   }
   .des {
-    padding: 150px 0;
+    padding: 100px 0;
     @media only screen and (max-width: 600px) {
       padding: 20px 0;
     }
@@ -113,7 +120,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 500px;
+        height: 400px;
         padding: 20px;
         @media only screen and (max-width: 600px) {
           height: auto;
