@@ -302,6 +302,12 @@ footer a:hover {
   #home .feature-projects .project .sugam-park-text, #home .current-project .project .sugam-park-text {
     margin-top: 200px;
   }
+  #home .feature-projects .project .sugam-business-park-text, #home .current-project .project .sugam-business-park-text {
+    margin-top: 200px;
+  }
+  #home .feature-projects .project .sugam-business-park-img, #home .current-project .project .sugam-business-park-img {
+    margin-top: -600px;
+  }
 }
 
 #home .current-project .heading {
