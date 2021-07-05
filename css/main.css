@@ -660,4 +660,41 @@ footer a:hover {
   height: 300px;
   margin-top: 50px;
 }
+
+#blogs .blog-card img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+}
+
+#blogs .blog-card .title {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#blogs .blog-card .title a {
+  color: #736357;
+}
+
+#blogs .blog-card .desc {
+  margin-top: 10px;
+}
+
+#blogs .cat {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#blogs .cat a {
+  color: #736357;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 0;
+}
 /*# sourceMappingURL=main.css.map */

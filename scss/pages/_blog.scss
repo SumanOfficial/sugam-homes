@@ -1,0 +1,31 @@
+#blogs {
+  .blog-card {
+    img {
+      width: 100%;
+      height: auto;
+      max-height: 450px;
+    }
+    .title {
+      font-weight: bold;
+      margin-top: 20px;
+      a {
+        color: #736357;
+      }
+    }
+    .desc {
+      margin-top: 10px;
+    }
+  }
+
+  .cat {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    a {
+      color: #736357;
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0;
+    }
+  }
+}
