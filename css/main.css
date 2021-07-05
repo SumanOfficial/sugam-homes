@@ -697,4 +697,39 @@ footer a:hover {
           flex-direction: column;
   margin: 10px 0;
 }
+
+.single-post {
+  padding: 50px;
+}
+
+.single-post h1 {
+  font-weight: bold;
+  color: #736357;
+  margin-top: 50px;
+}
+
+.single-post img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.single-post p {
+  font-size: 18px;
+}
+
+.single-post ul {
+  padding: 20px;
+}
+
+.single-post ul li {
+  list-style: circle;
+  font-weight: bold;
+}
+
+.single-post h2,
+.single-post h3 {
+  font-weight: bold;
+  color: #736357;
+}
 /*# sourceMappingURL=main.css.map */
