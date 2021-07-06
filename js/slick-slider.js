@@ -32,7 +32,7 @@ $(".urban_lakes_banner").slick({
   infinite: true,
   autoplay: true,
   speed: 300,
-  fade: true,
+  // fade: true,
   cssEase: "linear",
   arrows: false,
 });

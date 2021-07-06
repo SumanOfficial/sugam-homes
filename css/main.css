@@ -560,6 +560,15 @@ footer a:hover {
   height: 600px;
 }
 
+#urban_lakes .location ul {
+  padding: 0 20px;
+}
+
+#urban_lakes .location ul li {
+  font-size: 18px;
+  list-style: circle;
+}
+
 #urban_lakes .q-link {
   margin-top: 100px;
   text-align: center;
