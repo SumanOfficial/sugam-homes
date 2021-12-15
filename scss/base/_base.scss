@@ -1,81 +1,81 @@
 *,
 html {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 @font-face {
-  font-family: myFirstFont;
-  src: url(../font/IvyMode-Thin.ttf);
+    font-family: myFirstFont;
+    src: url(../font/IvyMode-Thin.ttf);
 }
 body {
-  font-family: "Dosis", sans-serif;
-  // width: 100vw;
+    font-family: "Dosis", sans-serif;
+    // width: 100vw;
 }
 nav {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 .text-theme {
-  color: #736357;
+    color: #736357;
 }
 .logo {
-  width: 130px;
-  height: 80px;
+    width: 130px;
+    height: 80px;
 }
 .btn-custom {
-  background-color: #736357;
-  color: #f8b417;
-  font-weight: bold;
-  &:hover {
-    color: #fff;
-  }
+    background-color: #736357;
+    color: #f8b417;
+    font-weight: bold;
+    &:hover {
+        color: #fff;
+    }
 }
 .line {
-  background-color: #f8b417;
-  width: 100px;
-  height: 3px;
+    background-color: #f8b417;
+    width: 100px;
+    height: 3px;
 }
 .back-blue {
-  background-color: #165266;
+    background-color: #165266;
 }
 footer {
-  margin-top: 100px;
-  background-image: url("../assets/images/footer.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+    margin-top: 100px;
+    background-image: url("../assets/images/footer_new.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
-  padding: 100px 0;
-  form.subscribe {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    height: 40px;
-    input {
-      width: 100% !important;
+    padding: 100px 0;
+    form.subscribe {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        height: 40px;
+        input {
+            width: 100% !important;
+        }
     }
-  }
-  form.qus {
-    background-color: #736357;
-    color: #fff;
-    padding: 20px;
-    label {
-      font-weight: bold;
+    form.qus {
+        background-color: #736357;
+        color: #fff;
+        padding: 20px;
+        label {
+            font-weight: bold;
+        }
+        .btn-custom {
+            background-color: #f8b417;
+            color: #736357;
+        }
     }
-    .btn-custom {
-      background-color: #f8b417;
-      color: #736357;
+    .footer-slider {
+        img {
+            border-radius: 4px;
+        }
     }
-  }
-  .footer-slider {
-    img {
-      border-radius: 4px;
+    a {
+        color: #736357;
+        &:hover {
+            color: #000;
+            text-decoration: none;
+        }
     }
-  }
-  a {
-    color: #736357;
-    &:hover {
-      color: #000;
-      text-decoration: none;
-    }
-  }
 }
